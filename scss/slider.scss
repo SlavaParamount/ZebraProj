@@ -1,0 +1,64 @@
+.slider {
+	text-align: center;
+	position: relative;
+	z-index: -1;
+	&-img {
+		width: 100%;
+		object-fit: cover;
+		filter: invert(88%) sepia(11%) saturate(901%) hue-rotate(124deg) ;
+		position: relative;
+		z-index: -1;
+		height: 655px;
+	}
+	&-header {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translateX(-50%);
+		color: white;
+	}
+	&-header__main {
+		font-family: 'Helvetica Neue';
+		text-transform: uppercase;
+		letter-spacing: 10px;
+		text-shadow: 
+		-0   -1px 0   #000000,
+		 0   -1px 0   #000000,
+		-0    1px 0   #000000,
+		 0    1px 0   #000000,
+		-1px -0   0   #000000,
+		 1px -0   0   #000000,
+		-1px  0   0   #000000,
+		 1px  0   0   #000000,
+		-1px -1px 0   #000000,
+		 1px -1px 0   #000000,
+		-1px  1px 0   #000000,
+		 1px  1px 0   #000000,
+		-1px -1px 0   #000000,
+		 1px -1px 0   #000000,
+		-1px  1px 0   #000000,
+		 1px  1px 0   #000000;
+	}
+	&-header__bold {
+		font-family: 'ImpactRegular';
+		font-size: 116px;
+		text-transform: uppercase;
+		text-shadow: 
+		-0   -1px 0   #000000,
+		 0   -1px 0   #000000,
+		-0    1px 0   #000000,
+		 0    1px 0   #000000,
+		-1px -0   0   #000000,
+		 1px -0   0   #000000,
+		-1px  0   0   #000000,
+		 1px  0   0   #000000,
+		-1px -1px 0   #000000,
+		 1px -1px 0   #000000,
+		-1px  1px 0   #000000,
+		 1px  1px 0   #000000,
+		-1px -1px 0   #000000,
+		 1px -1px 0   #000000,
+		-1px  1px 0   #000000,
+		 1px  1px 0   #000000;
+	}
+}

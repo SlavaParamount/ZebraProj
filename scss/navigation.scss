@@ -1,0 +1,89 @@
+.navigation {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	@media (min-width: 768px) {
+		align-items: center;
+	}
+	&-logo {
+		font-family: 'Helvetica Neue bold';
+		font-size: 38px;
+		color: #626262;
+		text-decoration: none;
+	}
+	& span {
+		color: #06b5a9;
+	}
+	&-menu { /*  ul  */
+		display: flex;
+		flex-direction: column;
+		list-style-type: none;
+		position: absolute;
+		z-index: 1;
+		width: 100%;
+		background: rgba(255,255,255,0.9);
+		top: 37px;
+		@media (min-width: 768px) {
+			background: none;
+			flex-direction: row;
+			position: static;
+			margin-top: 0;
+			width: auto;
+		}
+	}
+	&-link {   /*   li a   */
+		text-decoration: none;
+		padding: 15px;
+		color: #626262;
+		font-family: "Helvetica Neue";
+		font-size: 18px;
+		cursor: pointer;
+		height: 100%;
+		width: 100%;
+		display: block;
+		&:hover {
+			background: #cf1a2b;
+			color: white;
+		}
+		@media(min-width: 768px) {
+			width: auto;
+
+		}
+	}
+	&-wrapper {
+		background: rgba(255, 255, 255, 0.9);
+		position: absolute;
+		width: 100%;
+	}
+	&-listitem {     /*  li  */
+		
+		@media(min-width: 768px) {
+			margin-bottom: 0px;
+		}
+		&:last-child {
+			margin-bottom: 0px;
+		}
+	}
+	&-card {
+		font-family: "Helvetica Neue";
+		font-size: 28px;
+		position: relative;
+		color: #bdbdbd;
+		&::after {
+			display: block;
+			position: absolute;
+			content: "";
+			background: url("../img/card.png") no-repeat;
+			height: 26px;
+			width: 29px;
+			left: -50%;
+			top: 0;
+		}
+	}
+	&-burger {
+		display: flex;
+		@media(min-width: 768px) {
+			display: none;
+		}
+	}
+}

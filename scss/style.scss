@@ -1,0 +1,25 @@
+@import "reset";
+@import "fonts";
+@import "navigation";
+@import "settings";
+@import "slider";
+@import "features";
+@import "item";
+@import "categories";
+@import "cat";
+@import "levis";
+
+body {
+    background-color: $color-bg;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	@media(min-width: 768px) {
+		margin-left: 128px;
+		margin-right: 128px;
+	}
+}

@@ -1,0 +1,24 @@
+.categories {
+	background: url(../img/zebra2.jpg) no-repeat;
+	background-size: 100%;
+	text-align: center;
+	padding-top: 100px;
+	&-header {
+		font-family: 'Josefin Slab', serif;
+		text-transform: uppercase;
+		color: white;
+		font-size: 2em;
+		@media(min-width: 768px) {
+			font-size: 70px;
+		}
+		@media(min-width: 1275px) {
+			font-size: 116px;
+		}
+	}
+	&-wrapper {
+		margin-top: 70px;
+		display: flex;
+		flex-direction: row;
+		padding-bottom: 50px;
+	}
+}

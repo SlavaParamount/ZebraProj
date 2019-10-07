@@ -1,0 +1,12 @@
+.levis {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	padding: 0;
+	&-logo {
+		position: absolute;
+		top: -17px;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+}

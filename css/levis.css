@@ -1,0 +1,15 @@
+.levis {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  position: relative;
+  padding: 0; }
+  .levis-logo {
+    position: absolute;
+    top: -17px;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+        transform: translateX(-50%); }
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImxldmlzLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDQyxxQkFBYTtFQUFiLGNBQWE7RUFDYiwyQkFBc0I7TUFBdEIsdUJBQXNCO0VBQ3RCLG1CQUFrQjtFQUNsQixXQUFVLEVBT1Y7RUFOQTtJQUNDLG1CQUFrQjtJQUNsQixXQUFVO0lBQ1YsVUFBUztJQUNULGdDQUEyQjtRQUEzQiw0QkFBMkIsRUFDM0IiLCJmaWxlIjoibGV2aXMuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmxldmlzIHtcclxuXHRkaXNwbGF5OiBmbGV4O1xyXG5cdGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XHJcblx0cG9zaXRpb246IHJlbGF0aXZlO1xyXG5cdHBhZGRpbmc6IDA7XHJcblx0Ji1sb2dvIHtcclxuXHRcdHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuXHRcdHRvcDogLTE3cHg7XHJcblx0XHRsZWZ0OiA1MCU7XHJcblx0XHR0cmFuc2Zvcm06IHRyYW5zbGF0ZVgoLTUwJSk7XHJcblx0fVxyXG59Il19 */

@@ -1,0 +1,65 @@
+.item {
+	padding: 28px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	overflow: hidden;
+	&-img {
+		position: absolute;
+		right: 0px;
+		top: 0px;
+		z-index: 1;
+		transform: scale(0.95) translateX(3%);
+	}
+	&-header {
+		font-family: 'Helvetica Neue bold';
+		color: white;
+		text-transform: uppercase;
+		font-size: 30px;
+		&__big {
+			font-size: 101px;
+			transform:rotateX(180deg); 
+		}
+	}
+	&-text {
+		font-family: 'Helvetica Neue';
+		font-size: 24px;
+		color: white;
+		text-transform: uppercase;
+	}
+	&-price {
+		font-family: 'Helvetica Neue bold';
+		color: #12867f;
+		font-size: 49px;
+	}
+	&-offer {
+		font-family: 'Helvetica Neue bold';
+		color: #f2ca66;
+		font-size: 64px;
+		background: white;
+		width: 170px;
+		text-align: center;
+		padding: 15px;
+		text-transform: uppercase;
+		margin-left: -28px;
+	}
+}
+
+
+
+.item-2 img {
+	top: auto;
+	bottom: -5px;
+}
+
+
+
+.item-3{ 
+	& .item-price {
+		color: #414049;
+	}
+	& img {
+	top: auto;
+	bottom: -5px;
+}
+}

@@ -1,0 +1,80 @@
+.cat {
+		display: block;
+		width: 100px;
+		height: 100px;
+		border-radius: 100px;
+		background-color: rgb(88, 219, 211);
+  		opacity: 0.8;
+  		position: relative;
+  		@media(min-width: 768px) {
+  			width: 200px;
+  			height: 200px;
+  		}
+	&-shoes::after {
+			content: url('../img/shoe.png');
+			display: block;
+  			position: absolute;
+  			left: 50%;
+  			top: 50%;
+			transform: translateX(-50%) translateY(-50%) scale(0.5);
+			@media(min-width: 768px) {
+				content: url('../img/shoe.png');
+				transform: translateX(-50%) translateY(-50%) scale(1);
+			}
+	}
+	&-shirt::after {
+			content: url('../img/shirt.png');
+			display: block;
+  			position: absolute;
+  			left: 50%;
+  			top: 50%;
+			transform: translateX(-50%) translateY(-50%) scale(0.5);
+			@media(min-width: 768px) {
+				content: url('../img/shirt.png');
+				transform: translateX(-50%) translateY(-50%) scale(1);
+			}
+	}
+	&-jeans::after {
+			content: url('../img/jeans.png');
+			display: block;
+  			position: absolute;
+  			left: 50%;
+  			top: 50%;
+			transform: translateX(-50%) translateY(-50%) scale(0.5);
+			@media(min-width: 768px) {
+				content: url('../img/jeans.png');
+				transform: translateX(-50%) translateY(-50%) scale(1);
+			}
+	}
+	&-hat::after {
+			content: url('../img/hat.png');
+			display: block;
+  			position: absolute;
+  			left: 50%;
+  			top: 50%;
+			transform: translateX(-50%) translateY(-50%) scale(0.5);
+			@media(min-width: 768px) {
+				content: url('../img/hat.png');
+				transform: translateX(-50%) translateY(-50%) scale(1);
+			}
+	}
+	&:nth-child(2n) {
+		margin-left: -25px;
+		margin-top: -25px;
+		margin-right: -25px;
+		@media(min-width: 768px) {
+			margin-left: -50px;
+			margin-top: -50px;
+			margin-right: -50px;
+		}
+	}
+	&:hover {
+		background-color: rgba(255,255,255,0.7);
+		border: 5px solid rgb(88, 219, 211);
+		transition: 0.5s;
+	}
+	&:hover::after {
+			filter: invert(88%) sepia(7%) saturate(3031%) hue-rotate(117deg) brightness(90%) contrast(91%);
+			transition: 0.5s;
+	}
+}
